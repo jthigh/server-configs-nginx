@@ -1,5 +1,30 @@
-2.0.0 (2017-05-06)
-------------------
+### 3.0.0 (???? ??, 2019)
+
+* ⚠️ **Breaking**: Switch from `sites-enabled`/`available` to `conf.d`
+  [[306af36](https://github.com/h5bp/server-configs-nginx/commit/306af367e97a5f177b8bc479cef416fef2508732)]
+* ⚠️ **Breaking**: Restructure `h5bp/` directives for atomic structure
+  [[496af1c](https://github.com/h5bp/server-configs-nginx/commit/496af1cfd535d472d8bbd2db0a322f988803741b)]
+* ⚠️ **Breaking**: Refactor and modernize TLS/SSL directives
+  [[1b2b4eb...d2531ac](https://github.com/h5bp/server-configs-nginx/compare/1b2b4eb...d2531ac)]
+* 🎉 Tests! Add tests to help community contributions
+  [[]()]
+* Replace location block `add_header` directives with `expires` directives
+  [[135d093](https://github.com/h5bp/server-configs-nginx/commit/135d093a7505a72810156760b23b1f03e18c8b0a)]
+* Support hashed asset names
+  [[1b2b4eb](https://github.com/h5bp/server-configs-nginx/commit/1b2b4eb2766e3be99f30c65c86c265fc07edcdad)]
+* Switch back `.js`-files and `.mjs`-files media-type to `text/javascript`
+  [[62dbd41](https://github.com/h5bp/server-configs-nginx/commit/62dbd41aeefb063be761741098a2584f1019f586)]
+  [[08272b6](https://github.com/h5bp/server-configs-nginx/commit/08272b63c2c9d0f875480a62caa615fe20387ad7)]
+* Add font MIME types per RFC 8081
+  [[9c6aad8](https://github.com/h5bp/server-configs-nginx/commit/9c6aad83a509cb9dc72cacf17a54281326dd9ca9)]
+* Add Matroska files MIME types
+  [[b244111](https://github.com/h5bp/server-configs-nginx/commit/b244111468ce69218acad08ccc4b79c43f88c8c9)]
+* Fix GeoJSON and RDF media types
+  [[94262e7](https://github.com/h5bp/server-configs-nginx/commit/94262e76103a2f69d3f66b4e92c0c0ebb3cd486b)]
+* Improve inline comments and review documentation.
+
+
+### 2.0.0 (2017-05-06)
 
 - V2.0.0. [AD7six]
 
@@ -390,8 +415,7 @@
 
 - Correct bad link. [Andy Dawson]
 
-1.0.0 (2014-10-24)
-------------------
+### 1.0.0 (2014-10-24)
 
 - V1.0.0. [AD7six]
 
